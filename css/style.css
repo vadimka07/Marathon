@@ -1,0 +1,53 @@
+.button-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: 100px;
+	background-image: linear-gradient(
+			to right,
+			#04d4da 20px,
+			transparent 20px,
+			transparent 280px,
+			#e080da 280px
+		),
+		linear-gradient(
+			to right,
+			#04d4da 20px,
+			transparent 20px,
+			transparent 280px,
+			#e080da 280px
+		),
+		linear-gradient(
+			to bottom,
+			#04d4da 20px,
+			transparent 20px,
+			transparent 80px,
+			#04d4da 80px
+		),
+		linear-gradient(
+			to bottom,
+			#e080da 20px,
+			transparent 20px,
+			transparent 80px,
+			#e080da 80px
+		);
+	background-size: 100% 3px, 100% 3px, 3px 100%, 3px 100%;
+	background-position: 0 0, 0 100%, 0 0, 100% 0;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+
+a.button {
+	text-decoration: none;
+	font-size: 15px;
+	background: red;
+	width: 250px;
+	height: 70px;
+	display: block;
+	text-align: center;
+	line-height: 4;
+	color: #fff;
+	text-transform: uppercase;
+}
